@@ -15,12 +15,48 @@
     </head>
     <body>
 <section class="page-section start-section" id="startScreen">
-  <h1>Museum of Sufferagettes</h1>
-  <h2>Which sufferagette are you most like?</h2>
+  <h1>XX Museum of Sufferagettes</h1>
+  <h2>How well do you know your sufferagettes?</h2>
   <a href="#" class="btn btn-lg" id="buttonStart">Start</a>
 </section>
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+<div class="question active" id="q1">
+<img src="img/lucystone.png" width="200px" height="200px"> 
+<h1>Who protested for 2 weeks straight?</h1>
+<ul>
+<li><a href="#" class="choice correct">Lucy Stone</a></li>
+<li><a href="#" class="choice">Alice Paul</a></li>
+<li><a href="#" class="choice">Doris Stevens</a></li>
+<li><a href="#" class="choice">None of the above</a></li>
+</ul>
+<div class="result correct-answer">Good one!
+<a href="#q2" class="next">Next</a>
+</div>
+<div class="result wrong-answer">Not this time..
+<a href="#q2" class="next">Next</a>
+</div>
+</div>
+
+<div class="question" id="q2">
+<img src="img/alicepaul.png" width="200px" height="200px">
+<h1>Which sufferagette signed the petition in 1932?</h1>
+<ul>
+<li><a href="#" class="choice correct">Alice Paul</a></li>
+<li><a href="#" class="choice">Lucy Stone</a></li>
+<li><a href="#" class="choice">Doris Stevens</a></li>
+<li><a href="#" class="choice">Queen Latifa</a></li>
+</ul>
+<div class="result correct-answer">Awesome!
+<a href="#final" class="next">Next</a>
+</div>
+<div class="result wrong-answer">Awe, Nice try!
+<a href="#final" class="next">Next</a>
+</div>
+</div>
+
+<div id="final" class="final-result">
+<h1>Your score is <span id="score"></span>%!</h1>
+</div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>

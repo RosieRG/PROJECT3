@@ -60,7 +60,7 @@ body {
   font-size: 32px;
 }
 .start-section {
-  background: #350816;
+  background: pink;
 
   position: absolute;
   top: 0;
@@ -88,6 +88,46 @@ body {
   font-style: italic;
   text-transform: uppercase;
   text-decoration: none;
+}
+.question {
+  background-colour: white;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+.final-result {
+  background-color: red;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+h1{
+  color: black;
+  font-family: helvetica;
+}
+
+h2{
+  font-family: helvetica;
+  color: black;
+}
+.result{
+  display: none;
 }
 
 
