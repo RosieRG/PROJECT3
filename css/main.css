@@ -77,13 +77,12 @@ body {
 }
 
 .btn {
-  background: none;
-
-  padding: 10px 15px;
+  background: white;
+  padding: 5px 15px;
   border: 1px solid white;
   border-radius: 2px;
   font-size: 50px;
-  color: white;
+  color: pink;
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none;
