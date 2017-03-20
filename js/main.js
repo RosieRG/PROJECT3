@@ -1,5 +1,5 @@
-$('buttonStart').click( function (){
-  $('#startScreen').fadeOut(2500);
+$('#buttonStart').click( function (){
+  $('#startScreen').fadeOut(1000);
 });
 
 var score = 0;
